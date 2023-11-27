@@ -1,0 +1,184 @@
+.container_card{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 100px 20px;
+      padding:50px 100px;
+      @media screen and (max-width: 995px){
+            
+      }
+      @media screen and (max-width: 995px){
+            
+      }
+      @media screen and (max-width: 512px){
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 100px 20px;
+            padding:50px 90px;
+      }
+      @media screen and (max-width: 433px){
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 100px 20px;
+            padding:50px 50px;
+      }
+      @media screen and (max-width: 339px){
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 100px 20px;
+            padding:50px 50px;
+      }
+
+}
+
+/* first card */
+.container_card .cardss{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 360px;
+      width: 350px;
+      background: aliceblue;
+      border-radius: 20px;
+      box-shadow: 0 35px 80px rgba(210, 207, 207, 0.15);
+      transition: 0.3s;
+      @media screen and (max-width: 512px){
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 360px;
+            width: 550px;
+      }
+      @media screen and (max-width: 339px){
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 360px;
+            width: 550px;
+      }
+}
+.container_card .cardss:hover{
+      height: 520px;
+      @media screen and (max-width: 512px){
+            height: 370px;
+      }
+      @media screen and (max-width: 455px){
+            height: 320px;
+      }
+      @media screen and (max-width: 433px){
+            height: 350px;
+      }
+      @media screen and (max-width: 383px){
+            height: 360px;
+      }
+      @media screen and (max-width: 366px){
+            height: 410px;
+      }
+
+}
+.container_card .cardss .imgbx{
+      top: 10px;
+      border-radius: 20px;
+      transition: 0.3s;
+      position: absolute;
+      width: 300px;
+      height: 220px;
+      background: black;
+      @media screen and (max-width: 512px){
+            height: 40%;
+            width: 90%;
+      }
+}
+.container_card .cardss:hover .imgbx{
+      top:-100px;
+      scale:0.75;
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 2);
+}
+.container_card .cardss .imgbx img
+{
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      @media screen and (max-width: 512px){
+            height: 100%;
+            width: 100%;
+      }
+}
+.container_card .cardss .contents
+{
+      position: absolute;
+      top: 250px;
+      padding: 0 30px;
+      height: 90px;
+      overflow: hidden;
+      text-align: center;
+      @media screen and (max-width: 512px){
+            top: 160px;
+            height: 193px;
+            font-size: 12px;
+            padding: 0 20px;
+      }
+}
+.container_card .cardss:hover .contents
+{
+      margin: 10px 0;
+      top:100px;
+      height: 390px;
+      font-size: 14px;
+      @media screen and (max-width: 512px){
+            top:50px;
+            font-size: 11px;
+            margin: 10px 0;
+            padding: 5px;
+            text-indent: 10px;
+      }
+}
+.container_card .cardss:hover .contents h3
+{
+     
+      font-size: 17px;
+      padding: -5px;
+      @media screen and (max-width: 512px){
+            font-size: 13px;
+            padding: 5px;
+      }
+}
+.container_card .cardss .contents .technology
+{
+      padding: 20px;
+      text-align: left;
+}
+
+.container_card .cardss .contents a
+{
+      position: relative;
+      text-decoration: none;
+      display: inline-block;
+      padding: 2px 25px;
+     border:2px solid black;
+      color: rgb(11, 14, 16);
+
+
+}
+.technology{
+  float: right;
+  position: absolute;
+  text-align: justify;
+}

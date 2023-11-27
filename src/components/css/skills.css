@@ -1,0 +1,396 @@
+.front{
+      color: rgb(56, 56, 56);
+      font-size: 30px;
+      margin-left: 20px;
+      font-weight: 700;
+      position: absolute;
+}
+  
+
+.Skills{
+  margin-top: 60px;
+
+}
+
+/* what can i provide */
+
+.what{
+ font-size: 40px;
+ font-weight: 500;
+ position: absolute;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ display:flex;
+ color: azure;
+ width: 100%;
+ top: -90px;
+ @media screen and (max-width: 960px){
+      margin-top: -5px;
+    }
+    @media screen and (max-width: 640px){
+      margin-top: -5px;     
+    }
+    @media screen and (max-width: 409px){
+      margin-top: -5px;    
+      font-size: 30px; 
+    }
+}
+.provide{
+  
+      position: relative;
+      top: 90px;
+      display: grid;
+      column-gap: 12px;
+      row-gap: 12px;
+      grid-template-columns: auto auto auto auto;
+      justify-content: center;
+      margin-top: -230px;
+      text-align: center;
+      padding: 5px;
+      @media screen and (max-width: 960px){
+            grid-template-columns: auto auto ;
+            column-gap: 12px;
+            margin-top: -160px;
+            
+          }
+          @media screen and (max-width: 640px){
+            grid-template-columns: auto auto ;
+            column-gap: 12px;
+            margin-top: -160px;
+          
+           
+          }
+    }
+
+    .Front_end {
+      box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 10px 15px 49px rgba(242, 238, 238, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: rgb(193, 187, 187);
+      cursor: pointer;
+      border-radius: 20px;
+      height: 200px;
+      width: 250px;
+      @media screen and (max-width: 960px){
+        border-radius: 20px;
+        height: 150px;
+        width: 150px;
+          }
+          @media screen and (max-width: 640px){
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+          }
+    }
+    .Front_end:hover {
+      border: 1px solid rgb(244, 244, 246);
+      transform: scale(1.05);
+    }
+    .Front_end:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .responsive {
+      box-sizing: border-box;
+      width: 190px;
+      height: 254px;
+      border: 1px solid white;
+      box-shadow: 10px 15px 49px rgba(242, 238, 238, 0.22);
+      backdrop-filter: blur(6px);
+      border-radius: 17px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      font-weight: bolder;
+      color: rgb(193, 187, 187);
+      cursor: pointer;
+      border-radius: 20px;
+      height: 200px;
+      width: 250px;
+      background-color: rgb(23, 177, 113);
+      @media screen and (max-width: 960px){
+           border-radius: 20px;
+            height: 150px;
+            width: 150px;
+          
+          }
+          @media screen and (max-width: 640px){
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+          
+            
+   
+           
+          }
+    }
+  
+    .responsive:hover {
+      border: 1px solid rgb(244, 244, 246);
+  transform: scale(1.05);
+    }
+    .responsive:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .web_design {
+      box-sizing: border-box;
+      width: 190px;
+      height: 254px;
+      border: 1px solid white;
+      box-shadow: 10px 15px 49px rgba(242, 238, 238, 0.22);
+      backdrop-filter: blur(6px);
+      border-radius: 17px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      font-weight: bolder;
+      color: rgb(193, 187, 187);
+      cursor: pointer;
+      border-radius: 20px;
+      height: 200px;
+      width: 250px;
+      background-color: rgb(187, 22, 74);
+      @media screen and (max-width: 960px){
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+  
+          }
+          @media screen and (max-width: 640px){
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+      
+           
+          }
+    }
+    
+    .web_design:hover {
+      border: 1px solid rgb(244, 244, 246);
+  transform: scale(1.05);
+    }
+    .web_design:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .graphic_design {
+      box-sizing: border-box;
+      width: 190px;
+      height: 254px;
+      border: 1px solid white;
+      box-shadow: 10px 15px 49px rgba(242, 238, 238, 0.22);
+      backdrop-filter: blur(6px);
+      border-radius: 17px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      font-weight: bolder;
+      color: rgb(193, 187, 187);
+      cursor: pointer;
+      border-radius: 20px;
+      height: 200px;
+      width: 250px;
+      background-color: rgb(60, 104, 225);
+      @media screen and (max-width: 960px){
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+           
+          }
+          @media screen and (max-width: 640px){
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+          
+           
+          }
+    }
+    .graphic_design:hover {
+      border: 1px solid rgb(244, 244, 246);
+  transform: scale(1.05);
+    }
+    .graphic_design:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .texts{
+      margin: 0;
+     padding: 0;
+      font-size: 20px;
+      color: black;
+      margin: auto;
+      width: 100%;
+      padding-top: 140px;
+      @media screen and (max-width: 960px){
+            font-size: 12px;
+            padding-top: 90px;
+          }
+          @media screen and (max-width: 640px){
+            font-size: 12px;
+            padding-top: 90px;
+          
+           
+          }
+}
+
+
+.iconss img{
+  height: 140px;
+  width: 160px;
+  top: 15px;
+  left: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ position: absolute;
+ @media screen and (max-width: 960px){
+  height: 100px;
+  width: 100px;
+  top: 10px;
+  left: 28px;
+}
+
+@media  screen and (max-width: 771px) {
+  height: 90px;
+  width: 90px;
+  top: 17px;
+  left: 28px;
+}
+@media screen and (max-width: 640px){
+  height: 90px;
+  width: 90px;
+  top: 16px;
+  left: 28px;
+}
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.skillsbox_front{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin:50px;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(1473px, 4fr));
+}
+.skillsbox_back{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin:50px;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(1473px, 4fr));
+
+}
+.front_back{
+  color: rgb(56, 56, 56);
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+  margin: 20px;
+  
+}
+.skillsbox_others{
+  margin:50px;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(1473px, 4fr));
+}
+.font_others{
+  color: rgb(56, 56, 56);
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+  margin: 30px;
+}
+.skillset{
+  margin: auto;
+  width: 60%;
+  padding: 15px;
+  border-radius: 20px;
+background-color:rgb(218, 218, 218);
+}
+.side_images {
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 150px;
+  height: 150px;
+  column-gap: 20px;
+
+  @media screen and (max-width: 989px) {
+    width: 130px;
+    height: 130px;
+  }
+
+  @media screen and (max-width: 941px) {
+    width: 120px;
+    height: 120px;
+  }
+
+  @media screen and (max-width: 801px) {
+    width: 110px;
+    height: 110px;
+  }
+
+  @media screen and (max-width: 627px) {
+    width: 100px;
+    height: 100px;
+  }
+
+  @media screen and (max-width: 489px) {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media screen and (max-width: 418px) {
+    width: 70px;
+    height: 70px;
+  }
+}
+.side_images:hover {
+  -webkit-filter: grayscale(1%);
+  filter: grayscale(1%);
+}
+
+
+
+
+

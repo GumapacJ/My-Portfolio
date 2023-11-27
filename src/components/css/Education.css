@@ -1,0 +1,51 @@
+
+    
+    .title {
+      font-size: 15em;
+      text-align: center;
+      font-family: "Bebas Neue", sans-serif;
+    }
+    
+    h3 {
+      padding-top: 0.25em;
+    }
+    
+    .vertical-timeline-element-content {
+      box-shadow: 0 0.25em 0.5em 0 rgba(253, 253, 253, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+      padding: 2em 3em !important;  
+    }
+    
+    .date {
+      color:#0e96ea;
+      
+    }
+    
+    #description {
+      margin: 1.5em 0 2em 0;
+      font-size: 20px;
+      font-weight: bold;
+      
+    } 
+    @media only screen and (max-width: 1700px) {
+      .vertical-timeline-element-date {
+        display: block !important;
+        float: none !important;
+        color:#007ACC;
+       text-shadow: #0057af;
+        margin-top: 1.5em;
+      }
+    }
+ /* CSS for initial state (visible) */
+.education.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* CSS for faded state (hidden) */
+.education.hidden {
+  opacity: 0;
+  transform: translateY(20px); /* Adjust as needed */
+  transition: opacity 0.5s, transform 0.5s;
+}
