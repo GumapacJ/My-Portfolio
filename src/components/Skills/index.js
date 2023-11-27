@@ -118,9 +118,9 @@ export default function Skills() {
     <section className="skills" id="skills">
       <h1 className="heading"> My Skills</h1>
       
-      <Skill>  I have acquired knowledge in various technology stacks during my my studies
-      in Front-End development. Currently, I am focusing on mastering the ReactJS, Which will greatly enhance 
-      my skills in creating user interfaces and improving user experience </Skill>
+      <Skill>  I have gained knowledge in various technology stacks throughout my studies in Front-End development. 
+        Currently, I am dedicating my focus to mastering ReactJS, a pursuit that will significantly enhance my skills in 
+        crafting user interfaces and elevating overall user experience. </Skill>
     
       <div className="skillset">
         <h1 className='front'>Front-end</h1>

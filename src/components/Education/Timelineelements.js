@@ -2,7 +2,7 @@ let timelineElements = [
       {
         id: 1,
         title: "College",
-        location: "Philippine-Japan Friendship Highway, Davao City, 8000 Davao del Sur",
+        location: "Philippine-Japan Friendship Highway, Davao City, Davao del Sur",
         description:
           "Jose Maria College Foundation, Inc.",
         date: "2019 - 2023",

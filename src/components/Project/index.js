@@ -57,14 +57,13 @@ function Project() {
             </div>
               <div className='contents'>
               <h3>iCare</h3>
-                <p>The main purpose of the project is to design 
-                  and develop a Barcode Daily Time Record 
-                  RHU - Nabunturan Health Center Employees.
-                   The Study is to provide quality and genuine 
-                  service involving the employee's personal 
-                  information to create a system that design and develop
-                  barcode Daily Time Record. It may solve 
-                  related issues according to the data gathered from the establishment.
+                <p>
+                 
+                ICARE is a dynamic application that offers up-to-the-minute information on COVID-19 symptoms, 
+                prevention strategies, and travel guidance, while also keeping users informed about the latest 
+                government initiatives and conferences. As a pivotal tool during this historic pandemic, ICARE 
+                not only disseminates essential information but also encourages active participation, making it a 
+                catalyst for collective solutions.
                  </p>
                 
                  <div className='technology'>
