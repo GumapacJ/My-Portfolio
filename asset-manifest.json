@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.cb30696f.css",
+    "main.js": "/My-Portfolio/static/js/main.86de8d05.js",
+    "static/media/GUMAPAC.png": "/My-Portfolio/static/media/GUMAPAC.5d8b60442264905b3d04.png",
+    "static/media/msword.png": "/My-Portfolio/static/media/msword.758a5c5c56a2e9549107.png",
+    "static/media/neda.png": "/My-Portfolio/static/media/neda.02a62f1c59b6a0f545a7.png",
+    "static/media/pythone.png": "/My-Portfolio/static/media/pythone.f5fdb00eaea56e76e24d.png",
+    "static/media/HCIA.png": "/My-Portfolio/static/media/HCIA.ba01ecffda8b5a7be9fc.png",
+    "static/media/math.png": "/My-Portfolio/static/media/math.1e36f83c5537de8542ba.png",
+    "static/media/storage.jpg": "/My-Portfolio/static/media/storage.17d9a0d5b078d0bb8c29.jpg",
+    "static/media/dtr.png": "/My-Portfolio/static/media/dtr.a2118091a2895c4f2471.png",
+    "static/media/icares.png": "/My-Portfolio/static/media/icares.f4d54a2462cb83c3112c.png",
+    "static/media/profile.jpg": "/My-Portfolio/static/media/profile.41194336ce7edc5c3dca.jpg",
+    "static/media/reactjs.png": "/My-Portfolio/static/media/reactjs.8d7c693675a133a0b2dd.png",
+    "static/media/ps.png": "/My-Portfolio/static/media/ps.67d17de85a1edf22d6ea.png",
+    "static/media/git2.png": "/My-Portfolio/static/media/git2.7514d5719f7be7a267d2.png",
+    "static/media/web-design.png": "/My-Portfolio/static/media/web-design.f721d6300da36dde4a81.png",
+    "static/media/github1.png": "/My-Portfolio/static/media/github1.313df364cf4999aa13ea.png",
+    "static/media/php.png": "/My-Portfolio/static/media/php.842ef02b41f2b4a40201.png",
+    "static/media/coding.png": "/My-Portfolio/static/media/coding.ad02d63870968fd4d1e7.png",
+    "static/media/mysql1.png": "/My-Portfolio/static/media/mysql1.5500ac46c8d48c8d56a6.png",
+    "static/media/jquaery.png": "/My-Portfolio/static/media/jquaery.ee2ed4ec702b3d67f898.png",
+    "static/media/pen-tool.png": "/My-Portfolio/static/media/pen-tool.ba034a178da7fdc21857.png",
+    "static/media/css2.png": "/My-Portfolio/static/media/css2.6ceb7c9cb8158744b72d.png",
+    "static/media/js.png": "/My-Portfolio/static/media/js.e97c2a03f2d15b3adc89.png",
+    "static/media/mobile.png": "/My-Portfolio/static/media/mobile.d88ec36c889ea5a99296.png",
+    "static/media/ae.png": "/My-Portfolio/static/media/ae.372ddeac38e8693859bc.png",
+    "static/media/figma1.png": "/My-Portfolio/static/media/figma1.96cb87846f16f16f9156.png",
+    "static/media/html3.png": "/My-Portfolio/static/media/html3.45f587a3f43ef89a8937.png",
+    "static/media/school.svg": "/My-Portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/My-Portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.cb30696f.css.map": "/My-Portfolio/static/css/main.cb30696f.css.map",
+    "main.86de8d05.js.map": "/My-Portfolio/static/js/main.86de8d05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb30696f.css",
+    "static/js/main.86de8d05.js"
+  ]
+}
