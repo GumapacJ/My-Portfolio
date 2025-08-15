@@ -218,7 +218,7 @@ const About = () => {
                               </TextLoop>
                               <Subtitle>{Bio.description}</Subtitle>
                               </div>
-                              <a href="https://drive.google.com/file/d/1WiVXF7pdc288EgAlJ_q4OyHQNXobJkTf/view?usp=sharing">
+                              <a href="https://drive.google.com/file/d/1n1-LnbXjATvXGre2ij7ItiMwbzbf9vVe/view?usp=sharing">
                               <button className="button" type="button">
                               <span className="button__text">Download CV</span>
                               <span className="button__icon">
