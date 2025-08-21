@@ -4,6 +4,7 @@ import { Link as LinkR } from 'react-router-dom';
 import styled, { useTheme } from 'styled-components';
 import { Spin as Hamburger } from 'hamburger-react';
 import { DiCssdeck } from 'react-icons/di';
+import logo from '../image/logo.png';
 
 const Navbar = () => {
       const [isOpen, setIsOpen] = React.useState(false);
@@ -21,8 +22,9 @@ return (
                 cursor: 'pointer',
               }}
             >
-              <DiCssdeck size="3rem" />
-              <Span>Portfolio</Span>
+              
+              <img src={logo} style={{ width: "5rem", height: "5rem" }} alt="logo" />
+          
             </a>
           </NavLogo>
           <MobileIcon>
@@ -32,7 +34,7 @@ return (
             <NavLink href="#about">Home</NavLink>
             <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#education">Education</NavLink>
-            <NavLink href="#certificate">Certificate</NavLink>
+            {/* <NavLink href="#certificate">Certificate</NavLink> */}
             <NavLink href="#project">Projects</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </NavItems>
@@ -48,9 +50,9 @@ return (
                 <MobileLink href='#education' onClick={() => {
                 setIsOpen(!isOpen)
               }}>Education</MobileLink>
-               <MobileLink href='#certificate' onClick={() => {
+               {/* <MobileLink href='#certificate' onClick={() => {
                 setIsOpen(!isOpen)
-              }}>Certificate</MobileLink>
+              }}>Certificate</MobileLink> */}
                <MobileLink href='#project' onClick={() => {
                 setIsOpen(!isOpen)
               }}>Projects</MobileLink>

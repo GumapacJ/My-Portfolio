@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Skills from './components/Skills';
 import Education from "./components/Education/Education";
-import Certificates from "./components/Certificate";
+// import Certificates from "./components/Certificate";
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -46,7 +46,7 @@ function App() {
             <About/>
             <Skills />
             <Education /> 
-            <Certificates/> 
+            {/* <Certificates/>  */}
             <Project />  
             <Contact /> 
           </Wrapper>

@@ -4,6 +4,7 @@ import Icare from '../image/icares.png';
 import PS from '../image/dtr.png';
 import ID from '../image/neda.png';
 import lbsims from '../image/lbsims.png';
+import wedding from '../image/wedding.png';
 function Project() {
       return (
       <section className="project" id="project">
@@ -69,7 +70,14 @@ function Project() {
                 
                  <div className='technology'>
                  <p><span>Technology: </span>Figma</p>
-                 <a href='https://www.figma.com/file/HdnsVxaEmHaVkhEE3MZBQz/Icare?type=design&node-id=0-1&mode=design&t=TfUDI7fUVBEO0R3x-0'>View</a>
+                <a
+      href="https://www.figma.com/file/HdnsVxaEmHaVkhEE3MZBQz/Icare?type=design&node-id=0-1&mode=design&t=TfUDI7fUVBEO0R3x-0"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-md hover:from-blue-700 hover:to-indigo-700 active:scale-95 transition duration-200"
+    >
+      View
+    </a>
                  </div>
               </div>
          </div>
@@ -87,10 +95,34 @@ function Project() {
                   information to create a system that design and develop
                   barcode Daily Time Record. It may solve 
                   related issues according to the data gathered from the establishment.
+                  
                  </p>
                 
                  <div className='technology'>
-                 <p><span >Technology: </span>C#, Mysql</p>
+                 <p><span >Technology: </span>Laravel, Tailwindcss, Javascript, Mysql</p>
+                 </div>
+              </div>
+         </div>
+
+            <div className='cardss'>
+            <div className='imgbx'>
+            <img src={wedding}/>
+            </div>
+              <div className='contents'>
+              <h3>Wedding Invitation</h3>
+                <p>Our Wedding 
+                 </p>
+                
+                 <div className='technology'>
+                 <p><span >Technology: </span>Laravel, TailwindCss, Javascipt</p>
+                  <a
+      href="https://www.figma.com/file/HdnsVxaEmHaVkhEE3MZBQz/Icare?type=design&node-id=0-1&mode=design&t=TfUDI7fUVBEO0R3x-0"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-md hover:from-blue-700 hover:to-indigo-700 active:scale-95 transition duration-200"
+    >
+      View
+    </a>
                  </div>
               </div>
          </div>

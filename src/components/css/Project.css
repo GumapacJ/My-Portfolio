@@ -1,184 +1,158 @@
-.container_card{
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 100px 20px;
-      padding:50px 100px;
-      @media screen and (max-width: 995px){
-            
-      }
-      @media screen and (max-width: 995px){
-            
-      }
-      @media screen and (max-width: 512px){
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 100px 20px;
-            padding:50px 90px;
-      }
-      @media screen and (max-width: 433px){
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 100px 20px;
-            padding:50px 50px;
-      }
-      @media screen and (max-width: 339px){
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 100px 20px;
-            padding:50px 50px;
-      }
-
-}
 
 /* first card */
-.container_card .cardss{
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      height: 360px;
-      width: 350px;
-      background: aliceblue;
-      border-radius: 20px;
-      box-shadow: 0 35px 80px rgba(210, 207, 207, 0.15);
-      transition: 0.3s;
-      @media screen and (max-width: 512px){
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            height: 360px;
-            width: 550px;
-      }
-      @media screen and (max-width: 339px){
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            height: 360px;
-            width: 550px;
-      }
-}
-.container_card .cardss:hover{
-      height: 520px;
-      @media screen and (max-width: 512px){
-            height: 370px;
-      }
-      @media screen and (max-width: 455px){
-            height: 320px;
-      }
-      @media screen and (max-width: 433px){
-            height: 350px;
-      }
-      @media screen and (max-width: 383px){
-            height: 360px;
-      }
-      @media screen and (max-width: 366px){
-            height: 410px;
-      }
-
-}
-.container_card .cardss .imgbx{
-      top: 10px;
-      border-radius: 20px;
-      transition: 0.3s;
-      position: absolute;
-      width: 300px;
-      height: 220px;
-      background: black;
-      @media screen and (max-width: 512px){
-            height: 40%;
-            width: 90%;
-      }
-}
-.container_card .cardss:hover .imgbx{
-      top:-100px;
-      scale:0.75;
-      box-shadow: 0 15px 45px rgba(0, 0, 0, 2);
-}
-.container_card .cardss .imgbx img
-{
-      position: absolute;
-      top:0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      @media screen and (max-width: 512px){
-            height: 100%;
-            width: 100%;
-      }
-}
-.container_card .cardss .contents
-{
-      position: absolute;
-      top: 250px;
-      padding: 0 30px;
-      height: 90px;
-      overflow: hidden;
-      text-align: center;
-      @media screen and (max-width: 512px){
-            top: 160px;
-            height: 193px;
-            font-size: 12px;
-            padding: 0 20px;
-      }
-}
-.container_card .cardss:hover .contents
-{
-      margin: 10px 0;
-      top:100px;
-      height: 390px;
-      font-size: 14px;
-      @media screen and (max-width: 512px){
-            top:50px;
-            font-size: 11px;
-            margin: 10px 0;
-            padding: 5px;
-            text-indent: 10px;
-      }
-}
-.container_card .cardss:hover .contents h3
-{
-     
-      font-size: 17px;
-      padding: -5px;
-      @media screen and (max-width: 512px){
-            font-size: 13px;
-            padding: 5px;
-      }
-}
-.container_card .cardss .contents .technology
-{
-      padding: 20px;
-      text-align: left;
+.container_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns max */
+  gap: 2rem; /* space between cards */
+  padding: 40px; /* margin inside container */
+  max-width: 1200px; /* limit container width */
+  margin: 0 auto; /* center horizontally */
 }
 
-.container_card .cardss .contents a
-{
-      position: relative;
-      text-decoration: none;
-      display: inline-block;
-      padding: 2px 25px;
-     border:2px solid black;
-      color: rgb(11, 14, 16);
-
-
+@media screen and (max-width: 995px) {
+  .container_card {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+    padding: 20px;
+  }
 }
-.technology{
-  float: right;
-  position: absolute;
-  text-align: justify;
+
+@media screen and (max-width: 600px) {
+  .container_card {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    padding: 15px;
+  }
+}
+
+.cardss {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  height: 500px; /* 👈 FIXED height para parehas tanan */
+}
+
+.contents {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto; /* 👈 scrollable kung taas kaayo ang sulod */
+}
+
+
+.cardss:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.imgbx {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.cardss:hover .imgbx img {
+  transform: scale(1.05);
+}
+
+/* Content */
+.contents {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contents h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #1e293b;
+}
+
+.contents p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #475569;
+  flex-grow: 1; /* 👈 para mupuno ug space */
+}
+
+/* Technology + Button */
+.technology {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; /* 👈 para automatic naa sa ubos */
+  font-size: 0.85rem;
+  color: #334155;
+}
+
+/* button  */
+
+.buttons {
+  --bezier: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --edge-light: hsla(0, 0%, 50%, 0.8);
+  --text-light: rgba(255, 255, 255, 0.4);
+  --back-color: 240, 40%;
+
+  cursor: pointer;
+  padding: 0.7em 1em;
+  border-radius: 0.5em;
+  min-height: 2.4em;
+  min-width: 3em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  font-weight: bold;
+
+  background: linear-gradient(
+    140deg,
+    hsla(var(--back-color), 50%, 1) min(2em, 20%),
+    hsla(var(--back-color), 50%, 0.6) min(8em, 100%)
+  );
+  color: hsla(0, 0%, 90%);
+  border: 0;
+  box-shadow: inset 0.4px 1px 4px var(--edge-light);
+
+  transition: all 0.1s var(--bezier);
+}
+
+.buttons:hover {
+  --edge-light: hsla(0, 0%, 50%, 1);
+  text-shadow: 0px 0px 10px var(--text-light);
+  box-shadow: inset 0.4px 1px 4px var(--edge-light),
+    2px 4px 8px hsla(0, 0%, 0%, 0.295);
+  transform: scale(1.1);
+}
+
+.buttons:active {
+  --text-light: rgba(255, 255, 255, 1);
+
+  background: linear-gradient(
+    140deg,
+    hsla(var(--back-color), 50%, 1) min(2em, 20%),
+    hsla(var(--back-color), 50%, 0.6) min(8em, 100%)
+  );
+  box-shadow: inset 0.4px 1px 8px var(--edge-light),
+    0px 0px 8px hsla(var(--back-color), 50%, 0.6);
+  text-shadow: 0px 0px 20px var(--text-light);
+  color: hsla(0, 0%, 100%, 1);
+  letter-spacing: 0.1em;
+  transform: scale(1);
 }
