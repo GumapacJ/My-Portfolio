@@ -3,6 +3,7 @@ import "../css/Project.css";
 import Icare from '../image/icares.png';
 import PS from '../image/dtr.png';
 import ID from '../image/neda.png';
+import lbsims from '../image/lbsims.png';
 function Project() {
       return (
       <section className="project" id="project">
@@ -69,6 +70,27 @@ function Project() {
                  <div className='technology'>
                  <p><span>Technology: </span>Figma</p>
                  <a href='https://www.figma.com/file/HdnsVxaEmHaVkhEE3MZBQz/Icare?type=design&node-id=0-1&mode=design&t=TfUDI7fUVBEO0R3x-0'>View</a>
+                 </div>
+              </div>
+         </div>
+           <div className='cardss'>
+            <div className='imgbx'>
+            <img src={lbsims}/>
+            </div>
+              <div className='contents'>
+              <h3>Design and Development of the Barcode Daily Time Record System for RHU - Nabunturan Health Center Employees</h3>
+                <p>The main purpose of the project is to design 
+                  and develop a Barcode Daily Time Record 
+                  RHU - Nabunturan Health Center Employees.
+                   The Study is to provide quality and genuine 
+                  service involving the employee's personal 
+                  information to create a system that design and develop
+                  barcode Daily Time Record. It may solve 
+                  related issues according to the data gathered from the establishment.
+                 </p>
+                
+                 <div className='technology'>
+                 <p><span >Technology: </span>C#, Mysql</p>
                  </div>
               </div>
          </div>
